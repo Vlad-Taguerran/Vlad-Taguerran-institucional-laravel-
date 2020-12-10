@@ -1,0 +1,30 @@
+#conteiner-geral{
+    background:#12121b;
+}
+#footer{
+    background-color: #343a40;
+}
+#contexto{
+    margin: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+#home-login{
+    padding: 5px;
+}
+label{
+    color: #1b1e21;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 900px) {
+    #home-login{
+        position: relative;
+    }
+    #text-login{
+        width: 50%;
+    }
+
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+
+}
+#login{
+    margin-right: 18%;
+
+}
+
+#collapsibleNavId{
+   padding-left: 25%;
+}
+#footer{
+    background-color: rgba(0, 0, 0, 0.541);
+    width: 100%;
+    padding: 10px;
+    bottom: 0px;
+}
+#fcenter{
+    padding-right: 25px;
+    margin: -10px;
+}
+#figure{
+    padding-top: 10px;
+    width: 80px;
+
+}
+
+
+@media(min-width: 300px){
+    #fundador{
+        margin: 18px;
+    }
+}
+
+
+
+#copy{
+    width: 100%;
+}
+$theme-colors: (
+  "black-alpha": rgba(0, 0, 0, 0.767)
+);
+@import "~bootstrap/scss/bootstrap";

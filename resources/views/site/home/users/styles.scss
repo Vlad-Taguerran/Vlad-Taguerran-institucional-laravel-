@@ -1,0 +1,35 @@
+body{
+    background: #dae0e5;
+
+}
+label{
+    color: #1b1e21;
+    font-family: lemonada;
+    font-size: 1.2rem;
+}
+#container-body{
+    color: #1d2124;
+}
+#footer{
+    background: #000000d9;
+
+}
+#table-fixed{
+        height: 15rem;
+        overflow-y:auto;
+        width: 100%;
+    thead{
+        position: fixed;
+    }
+}
+@media (max-width: 900px) {
+    #boas-vindas{
+        margin: 2.8rem;
+        display: contents;
+    }
+}
+@media (min-width:700px) and ( max-width: 900px) {
+    #footer{
+        height: 100vh;
+    }
+}
